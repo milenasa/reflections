@@ -1,0 +1,23 @@
+How did viewing a diff between two versions help you to spot a bug?
+
+-> Quando um erro é cometido acidentalmente, sua alteração aparece ao se comparar os dois arquivos. Assim, o erro não passa despercebido.
+
+-> It is a good idea to make sure you keep your lines reasonably short when writing your reflections (or other plain-text files). The exact limit is a matter of personal preference. Many developers use a max line length of 80 to 120 characters.
+
+
+How could having easy access to the entire history of a file make you more efficient programmer in the long term?
+
+-> Detectando os erros mais facilmente e rapidamente. 
+
+What do you think are the pros and cons of manually choosing when to create a commit vs having versions automatically saved?
+
+-> Você pode fazer várias alterações e voltar atrás em algumas delas, e só salvar qnd tiver certeza e assim os outros envolvidos no projeto só verão o q foi salvo, o que você queria que eles vissem.
+-> Salvar automaticamente é útil quando algo é feito online, pois evita perder alguma mudança.
+
+Why do you think some version control systems allow saving multiple files in one commit while others treat each file separately?
+
+> Porque todos esses files tem um objetivo maior em comum, por exemplo, vários capítulos fazem parte de um livro e são necessários para se contar uma história.
+
+How can you use the commands git log and git diff to view the history of files?
+
+->git log é usado para ver os comits(ID, data, mensagem) e com o git diff pode-se ver as linhas modificadas de um comit em relação a outro. 

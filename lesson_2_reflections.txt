@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Ele ainda não é um Git repository, eu diria porque ele não tem o histórico de commits armazenados.
+É preciso para que a partir de então ele possa armazenar o histórico.
