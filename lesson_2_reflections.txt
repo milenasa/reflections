@@ -1,4 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Ele ainda não é um Git repository, eu diria porque ele não tem o histórico de commits armazenados.
-É preciso para que a partir de então ele possa armazenar o histórico.
+É preciso para que a partir de então ele possa armazenar o histórico. E salvar as alterações para que todos vejam.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+ S.A. é um lugar intermediário que sinaliza: uma alteração foi terminada e ajuda na organização da lógica do commit. 
