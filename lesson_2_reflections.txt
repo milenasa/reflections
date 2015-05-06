@@ -5,3 +5,24 @@ Ele ainda não é um Git repository, eu diria porque ele não tem o histórico de co
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
  S.A. é um lugar intermediário que sinaliza: uma alteração foi terminada e ajuda na organização da lógica do commit. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+ 
+Só colocando files com mudanças de mesma lógica na staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Quando se deseja um "feature" diferente em relação ao idioma ou mesmo ao comportamento do software.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Os dois brachs se encontram em um commit, a partir de então haverá só um label. O conteúdo dos files nos diferentes branchs são mesclados, compõem um novo file.
+
+How do the diagrams help you visualize the branch structure?
+
+Mostrando a ordem cronológica da criação de seus commits e assim, saber quais alterações de um branch não consta no outro.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automático é o modo mais prático, mas o manual se faz necessário quando duas pessoas diferentes alteraram a mesma função, assim o git não saberá 
+qual alteração deve prevalecer sobre a outra.
