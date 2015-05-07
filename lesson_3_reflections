@@ -5,3 +5,9 @@ Quando eu quero compartilhar meus files com outras pessoas.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Para não ter problemas com merging sempre que atualizar automaticamente.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks: github -> github
+Clones: local -> local / github -> local
+Branches: in local.
