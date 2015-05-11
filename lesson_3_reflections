@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks: github -> github
 Clones: local -> local / github -> local
 Branches: in local.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Pode-se fazer o fast-forward merge. O último commit do master tem acesso ao histórico do último commit do origin/master.
